@@ -151,8 +151,18 @@ h8 {
     font-size: 18px;
     text-align: left;
     text-decoration: none;
+    border-collapse: collapse;
   }
 
   .card-footer{
       text-align: right;
+  }
+
+  @media only screen and (max-width: 480px) {
+    table {
+      font-size: 12px;
+      text-align: left;
+      text-decoration: none;
+      border-collapse: collapse;
+    }
   }
