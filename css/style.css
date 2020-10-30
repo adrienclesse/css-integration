@@ -104,12 +104,17 @@ body {
         width: 330px;
         height: 75px;
     }
+    h1 {
+        font-size: 40px;
+    }
 }
-
 @media only screen and (min-width: 480px) and (max-width: 810px) {
         .glow-on-hover {
             width: 165px;
             height: 37,5px;
+        }
+        h1 {
+            font-size: 30px;
         }
     }
 
@@ -119,9 +124,8 @@ body {
         width: 100px;
         height: 18,75px;
     }
-    .buts{
-        display: flex;
-        flex-direction: column;
+    h1 {
+        font-size: 20px;
     }
 }
  
