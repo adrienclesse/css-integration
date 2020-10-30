@@ -1,0 +1,98 @@
+.card-header {
+  padding-bottom: -15px;
+}
+
+.graph {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+}
+
+.rectangle {
+  height: 50px;
+  width: 15px;
+  background-color: #dfdfdf;
+}
+
+.rectangle1 {
+  height: 46px;
+  width: 15px;
+  background-color: #dfdfdf;
+}
+
+.rectangle2 {
+  height: 48px;
+  width: 15px;
+  background-color: #dfdfdf;
+}
+
+.rectangle3 {
+  height: 48px;
+  width: 15px;
+  background-color: #dfdfdf;
+}
+
+.rectangle4 {
+  height: 48px;
+  width: 15px;
+  background-color: #dfdfdf;
+}
+
+.rectangle5 {
+  height: 48px;
+  width: 15px;
+  background-color: #dfdfdf;
+}
+
+.rectangle5 {
+  height: 48px;
+  width: 15px;
+  background-color: #dfdfdf;
+}
+
+.rectangle6 {
+  height: 48px;
+  width: 15px;
+  background-color: #dfdfdf;
+}
+
+.rectangle7 {
+  height: 48px;
+  width: 15px;
+  background-color: #dfdfdf;
+}
+
+.rectangle8 {
+  height: 48px;
+  width: 15px;
+  background-color: #dfdfdf;
+}
+
+.rectangle9 {
+  height: 48px;
+  width: 15px;
+  background-color: #dfdfdf;
+}
+
+.rectangle10 {
+  height: 48px;
+  width: 15px;
+  background-color: #dfdfdf;
+}
+
+.rectangle11 {
+  height: 48px;
+  width: 15px;
+  background-color: #dfdfdf;
+}
+/*# sourceMappingURL=interfaces2.css.map */

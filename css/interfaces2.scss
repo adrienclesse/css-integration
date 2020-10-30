@@ -1,3 +1,5 @@
+$graphcol: rgb(223, 223, 223);
+
 .card-header{
     padding-bottom: -15px;
 }
@@ -11,65 +13,75 @@
 .rectangle {
     height: 50px;
     width: 15px;
-    background-color: rgb(223, 223, 223);
+    background-color: $graphcol;
   }
 
   .rectangle1 {
     height: 46px;
     width: 15px;
-    background-color:rgb(223, 223, 223);
+    background-color: $graphcol;
   }
 
   .rectangle2 {
     height: 48px;
     width: 15px;
-    background-color: rgb(223, 223, 223);
+    background-color:$graphcol;
   }
 
   .rectangle3 {
     height: 48px;
     width: 15px;
-    background-color: rgb(223, 223, 223);
+    background-color: $graphcol;
   }
 
   .rectangle4 {
     height: 48px;
     width: 15px;
-    background-color:  rgb(223, 223, 223);
+    background-color:  $graphcol;
   }
 
   .rectangle5 {
     height: 48px;
     width: 15px;
-    background-color:  rgb(223, 223, 223);
+    background-color: $graphcol;
   }
 
   .rectangle5 {
     height: 48px;
     width: 15px;
-    background-color:  rgb(223, 223, 223);
+    background-color:  $graphcol;
   }
 
   .rectangle6 {
     height: 48px;
     width: 15px;
-    background-color:  rgb(223, 223, 223);
+    background-color:  $graphcol;
   }
 
   .rectangle7 {
     height: 48px;
     width: 15px;
-    background-color:  rgb(223, 223, 223);
+    background-color: $graphcol;
   }
 
   .rectangle8 {
     height: 48px;
     width: 15px;
-    background-color:  rgb(223, 223, 223);
+    background-color:  $graphcol;
   }
 
   .rectangle9 {
     height: 48px;
     width: 15px;
-    background-color:  rgb(223, 223, 223);
+    background-color:  $graphcol;
+  }
+  .rectangle10 {
+    height: 48px;
+    width: 15px;
+    background-color:  $graphcol;
+  }
+  .rectangle11 {
+    height: 48px;
+    width: 15px;
+    background-color:  $graphcol;
   }
