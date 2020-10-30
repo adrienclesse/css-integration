@@ -93,3 +93,25 @@ margin-left: 5em;
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
+
+@media only screen and (min-width: 800px) and (max-width: 1460px) {
+    .glow-on-hover {
+        width: 330px;
+        height: 75px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 800px) {
+        .glow-on-hover {
+            width: 165px;
+            height: 37,5px;
+        }
+    }
+
+@media only screen and (max-width: 480px) {
+
+    .glow-on-hover {
+        width: 82,5px;
+        height: 18,75px;
+    }
+}
