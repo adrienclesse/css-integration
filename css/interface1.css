@@ -5,7 +5,8 @@ body{
 .box{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;   
+    justify-content: space-between;
+    height: fit-content;   
 }
 
 img{
@@ -20,6 +21,7 @@ h2{
     color: rgb(75, 196, 196);
     font-family: Comic Sans MS , cursive, sans-serif;
     text-align: center;
+    font-size: medium;
 }
 
 p{
@@ -28,12 +30,31 @@ p{
     text-align: center;
 }
 
-.box1 .box2 .box3 .box4{
+boxy{
     max-width: 150px;
     border: 2px solid black;
+    margin-bottom: 40em;
 }
 
-@media only screen and (min-width: 710px) and (max-width: 950px) {
+    .box1:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 40px -10px white;
+      }
+      .box2:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 40px -10px white;
+      }
+      .box3:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 40px -10px white;
+      }
+      .box4:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 40px -10px white;
+      }
+
+
+@media only screen and (min-width: 694px) and (max-width: 950px) {
     p{
         font-size: x-small;
     }
@@ -42,7 +63,7 @@ p{
         }
     }
 
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 694px) {
     .box{
         flex-direction: column;
         justify-content: space-between;
