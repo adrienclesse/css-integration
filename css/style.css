@@ -94,14 +94,14 @@ margin-left: 5em;
     100% { background-position: 0 0; }
 }
 
-@media only screen and (min-width: 800px) and (max-width: 1460px) {
+@media only screen and (min-width: 810px) and (max-width: 1475px) {
     .glow-on-hover {
         width: 330px;
         height: 75px;
     }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 800px) {
+@media only screen and (min-width: 480px) and (max-width: 810px) {
         .glow-on-hover {
             width: 165px;
             height: 37,5px;
@@ -115,3 +115,4 @@ margin-left: 5em;
         height: 18,75px;
     }
 }
+ 
