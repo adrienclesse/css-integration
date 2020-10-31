@@ -178,9 +178,18 @@ table {
   text-align: right;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) and (min-width: 350) {
   table {
     font-size: 12px;
+    text-align: left;
+    text-decoration: none;
+    border-collapse: collapse;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  table {
+    font-size: 8px;
     text-align: left;
     text-decoration: none;
     border-collapse: collapse;
